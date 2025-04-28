@@ -28,7 +28,6 @@ return new class extends Migration
             $table->enum('detail_fait_generateur', [
                 'frein', 'moteur', 'carrosserie', 'pneu', 'vidange', 'autre'
             ]);
-
             $table->timestamps();
         });
     }
