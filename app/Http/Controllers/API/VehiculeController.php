@@ -33,7 +33,7 @@ class VehiculeController extends Controller
             'type_carburant' => 'nullable|string|max:50',
             'type_transmission' => 'nullable|string|max:50',
             'type_boite' => 'nullable|string|max:50',
-            'ptac' => 'nullable|numeric',
+            'ptac' => 'nullable|string',
             'type_vehicule' => 'nullable|string|max:50',
             'poids' => 'nullable|numeric',
             'longueur' => 'nullable|numeric',

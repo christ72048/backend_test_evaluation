@@ -28,10 +28,6 @@ class InterventionResource extends JsonResource
             'nature_intervention' => $this->nature_intervention,
             'fait_generateur' => $this->fait_generateur,
             'detail_fait_generateur' => $this->detail_fait_generateur,
-            // 'date_intervention' => $this->date_intervention,
-            // 'cout' => $this->cout,
-            // 'statut' => $this->statut,
-            // 'notes' => $this->notes,
             'created_at' => $this->created_at->toDateTimeString(),
             'updated_at' => $this->updated_at->toDateTimeString(),
         ];

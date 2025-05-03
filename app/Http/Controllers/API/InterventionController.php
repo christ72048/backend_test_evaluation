@@ -59,10 +59,10 @@ class InterventionController extends Controller
             'nature_intervention' => 'required|string|max:255',
             'fait_generateur' => 'required|string|max:255',
             'detail_fait_generateur' => 'required|string',
-            // 'date_intervention' => 'nullable|date',
-            // 'cout' => 'nullable|numeric',
-            // 'statut' => 'nullable|string|max:50',
-            // 'notes' => 'nullable|string',
+            //'date_intervention' => 'nullable|date',
+            //'cout' => 'nullable|numeric',
+            //'statut' => 'nullable|string|max:50',
+            //'notes' => 'nullable|string',
         ]);
 
         $intervention->update($request->all());
